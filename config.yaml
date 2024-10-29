@@ -2,7 +2,12 @@ baseURL: https://lixiang.dev
 languageCode: en-us
 defaultContentLanguage: en
 title: LIX
-googleAnalytics: G-TYYMZPT8H6
+services:
+  googleAnalytics:
+    ID: G-TYYMZPT8H6
+  # Comment before using giscus
+  disqus:
+    shortname: dev-lixiang
 
 outputs:
 home:
@@ -32,6 +37,20 @@ params:
   # For more date formats see https://gohugo.io/functions/format/
   dateFormat: Jan 2, 2006
   navTitleLink: /
+  # Uncomment to use giscus
+  # giscus:
+  #   repo: "dev-lixiang/dev-lixiang.github.io"
+  #   repoID: "R_kgDONGz1BQ"
+  #   category: "General"
+  #   categoryID: "DIC_kwDONGz1Bc4CjwYF"
+  #   mapping: "title"
+  #   reactionsEnabled: "1"
+  #   emitMetadata: "0"
+  #   inputPosition: "bottom"
+  #   theme: "/css/giscus.css"
+  #   lang: "en"
+  #   loading: "lazy"
+  #   crossorigin: "anonymous"
 
 menu:
   nav:
