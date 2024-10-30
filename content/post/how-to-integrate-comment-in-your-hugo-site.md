@@ -14,7 +14,9 @@ categories = [
 ]
 series = ["Hugo"]
 author = "Li Xiang"
+show_summary = false
 +++
+
 
 Someday you suddenly think it is so alone in your blog and you want others can comment on your blogs, so you opened 
 [Hugo's Quick Reference](https://gohugo.io/content-management/comments/), and you find this:
@@ -35,7 +37,7 @@ Actually hugo comes with all the code you need to load Disqus. Before adding Dis
 [set up an account](https://disqus.com/profile/signup/). Then go to *AddDisqusToSite* and click Get Started.
 
 Note that you should remember the **SHORTNAME** you input since this shortname will appear later on as a variable in your 
-*config.yml* or *config.toml*.
+`config.yml` or `config.toml`.
 
 Keep moving and fill in the form details for your site, after finishing you will obtain a template like this, create a file named `disqus.html` in `/layouts/partials` and paste it.
 ```html
@@ -72,7 +74,7 @@ Then add the partial in the footer of the post template, for me it is in `/layou
 {{ end }}
 ```
 
-Here we come to the last step, add below code inside your *config.yml* or *config.toml*.
+Here we come to the last step, add below code inside your `config.yml` or `config.toml`.
 
 ```yml
 services:

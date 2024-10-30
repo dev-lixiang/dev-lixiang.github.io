@@ -2,4 +2,4 @@
 title: Blog
 ---
 
-Hiya friends, welcome here. :heart:
+Hiya friends, welcome here. :smile:
