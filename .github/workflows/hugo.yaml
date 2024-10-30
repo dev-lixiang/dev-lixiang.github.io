@@ -1,33 +1,41 @@
-name: deploy webpage
+name: GitHub Pages
 
 on:
   push:
     branches:
-      - main
+      - main  # Set a branch to deploy
+  pull_request:
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-        - name: Checkout
-          uses: actions/checkout@v4
-          with:
-              fetch-depth: 0
+      - uses: actions/checkout@v4
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-        - name: Setup Hugo
-          uses: peaceiris/actions-hugo@v3
-          with:
-              hugo-version: "latest"
-              extended: true
+      # Read Hugo version from file
+      - name: Read .env
+        id: hugo-version
+        run: |
+          . ./.env
+          echo "HUGO_VERSION=${HUGO_VERSION}" >> "${GITHUB_OUTPUT}"
+    
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '${{ steps.hugo-version.outputs.HUGO_VERSION }}'
+          extended: true
 
-        - name: Build Web
-          run: hugo -D
+      - name: Build
+        run: hugo --minify
 
-        - name: Deploy Web
-          uses: peaceiris/actions-gh-pages@v4
-          with:
-              PERSONAL_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-              EXTERNAL_REPOSITORY: dev-lixiang/dev-lixiang.github.io
-              PUBLISH_BRANCH: main
-              PUBLISH_DIR: ./public
-              commit_message: auto deploy
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.ACCESS_TOKEN }}
+          publish_dir: ./public
