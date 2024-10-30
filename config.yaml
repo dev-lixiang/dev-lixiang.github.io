@@ -89,15 +89,16 @@ markup:
       hardWraps: false
       unsafe: true
       xHTML: false
-  highlight:
-    codeFences: true
-    hl_Lines: ""
-    lineNoStart: 1
-    lineNos: true
-    lineNumbersInTable: false
-    noClasses: true
-    style: monokai
-    tabWidth: 4
+  # highlight:
+  #   guessSyntax: false
+  #   codeFences: true
+  #   hl_Lines: ""
+  #   lineNoStart: 0
+  #   lineNos: false
+  #   lineNumbersInTable: false
+  #   noClasses: true
+  #   style: manni
+  #   tabWidth: 4
   tableOfContents:
     endLevel: 6
     startLevel: 2

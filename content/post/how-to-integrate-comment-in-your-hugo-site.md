@@ -66,11 +66,9 @@ Then add the partial in the footer of the post template, for me it is in `/layou
 
 ```html
 {{ .Content }}
-
 <footer>
     {{ partial "disqus.html" . }}
 </footer>
-
 {{ end }}
 ```
 
@@ -132,13 +130,10 @@ And then, we need to create a partial template named `giscus.html` in `../layout
 Same with before, add the partial in the footer of the post template in `/layouts/posts/single.html`.
 
 ```html
-
 {{ .content }}
-
 <footer>
     {{ partial "posts/giscus.html" . }}
 </footer>
-
 {{ end }}
 ```
 

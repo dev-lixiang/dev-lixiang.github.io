@@ -39,9 +39,3 @@
   {{/*  {{ partial "disqus.html" . }}  */}}
 </footer>
 {{ end }}
-
-{{ define "js-extra" }}
-    {{ if (findRE "<pre" .Content 1) }}
-        <script src="/js/copy-code.js"></script>
-    {{ end  }}
-{{ end  }}
