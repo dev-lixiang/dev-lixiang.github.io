@@ -1,5 +1,5 @@
 ---
-title: Blog
+title: Welcome
 ---
 
-Hiya friends, welcome here. :smile:
+Hiya friends, welcome here. :smile: Take a look what I have here.
