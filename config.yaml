@@ -6,8 +6,8 @@ services:
   googleAnalytics:
     ID: G-TYYMZPT8H6
   # Comment before using giscus
-  # disqus:
-    # shortname: dev-lixiang
+  disqus:
+    shortname: dev-lixiang
 
 
 outputs:
@@ -39,19 +39,19 @@ params:
   dateFormat: Jan 2, 2006
   navTitleLink: /
   # Uncomment to use giscus
-  giscus:
-    repo: "dev-lixiang/dev-lixiang.github.io"
-    repoID: "R_kgDONGz1BQ"
-    category: "General"
-    categoryID: "DIC_kwDONGz1Bc4CjwYF"
-    mapping: "title"
-    reactionsEnabled: "1"
-    emitMetadata: "0"
-    inputPosition: "bottom"
-    theme: "https://lixiang.dev/css/giscus.css"
-    lang: "en"
-    loading: "lazy"
-    crossorigin: "anonymous"
+  # giscus:
+  #   repo: "dev-lixiang/dev-lixiang.github.io"
+  #   repoID: "R_kgDONGz1BQ"
+  #   category: "General"
+  #   categoryID: "DIC_kwDONGz1Bc4CjwYF"
+  #   mapping: "title"
+  #   reactionsEnabled: "1"
+  #   emitMetadata: "0"
+  #   inputPosition: "bottom"
+  #   theme: "https://lixiang.dev/css/giscus.css"
+  #   lang: "en"
+  #   loading: "lazy"
+  #   crossorigin: "anonymous"
 
 menu:
   nav:
@@ -97,9 +97,7 @@ markup:
   #   noClasses: true
   #   style: manni
   #   tabWidth: 4
-  tableOfContents:
-    endLevel: 6
-    startLevel: 2
+
 
 # Uncomment to disable sitemap generation
 # disableKinds:
