@@ -1,11 +1,12 @@
 +++
-title = "How to Integrate Comment in Your Hugo Site"
+title = "How to Integrate Comments into Your Hugo Site"
 description = ""
 tags = [
     "Hugo",
-    "Giscus",
+    "Custom",
     "Comment",
     "Disqus",
+    "Giscus",
 ]
 date = "2024-10-29"
 categories = [

@@ -1,6 +1,17 @@
----
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
-tags: []
----
++++
+title = "{{ replace .Name "-" " " | title }}"
+date = {{ .Date }}
+description = ""
+tags = [
+    "",
+    "",
+]
+categories = [
+    "",
+    "",
+]
+series = [""]
+author = "Li Xiang"
+show_summary = false
++++
 

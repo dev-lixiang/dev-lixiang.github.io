@@ -72,6 +72,10 @@ menu:
       weight: 5
 
 markup:
+  tableOfContents:
+    endLevel: 6
+    ordered: false
+    startLevel: 2
   defaultMarkdownHandler: goldmark
   goldmark:
     extensions:
