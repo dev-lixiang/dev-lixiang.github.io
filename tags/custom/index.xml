@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Custom on LIX</title>
+    <link>https://lixiang.dev/tags/custom/</link>
+    <description>Recent content in Custom on LIX</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 31 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://lixiang.dev/tags/custom/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Add a Scroll Button to Your Hugo Site</title>
+      <link>https://lixiang.dev/blog/how-to-add-a-scroll-button-to-your-hugo-site/</link>
+      <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://lixiang.dev/blog/how-to-add-a-scroll-button-to-your-hugo-site/</guid>
+      <description>&lt;p&gt;In this article, I will show how to add a simple Scroll-to-Top button to your webpage.&lt;/p&gt;&#xA;&lt;p&gt;Vanilla Back To Top is simple and tiny with no dependencies. Hides when on top, scrolls up smoothly when clicked. Works equally great with Vue, React, Angular and without frameworks on Jekyll, Hugo and Hexo&lt;/p&gt;&#xA;&lt;p&gt;What we need to do first is go to &lt;a href=&#34;https://github.com/vfeskov&#34;&gt;vfeskov&lt;/a&gt;&amp;rsquo;s &lt;a href=&#34;https://github.com/vfeskov/vanilla-back-to-top&#34;&gt;vanilla back to top repo&lt;/a&gt;, there provides 3 ways to use it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Integrate Comments into Your Hugo Site</title>
+      <link>https://lixiang.dev/blog/how-to-integrate-comments-into-your-hugo-site/</link>
+      <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://lixiang.dev/blog/how-to-integrate-comments-into-your-hugo-site/</guid>
+      <description>&lt;p&gt;Someday you suddenly think it is so alone in your webpage and you want others can leave their comment here, so you opened&#xA;&lt;a href=&#34;https://gohugo.io/content-management/comments/&#34;&gt;Hugo&amp;rsquo;s Quick Reference&lt;/a&gt;, and you find this:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Hugo ships with an internal Disqus template, but this isn&amp;rsquo;t the only commenting system that will work with your new Hugo&#xA;website.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;But when you search with Google, DuckDuckGo, or any engine else, you may find most people would suggest you use&#xA;giscus but Disqus for your blog&amp;rsquo;s comments, so you may wanna know the differences between them. But wait, this is not&#xA;what this article&amp;rsquo;s aim is. In this article, I will show you how to integrate a comment module but not compare them, only&#xA;experience it yourself, can you find which is more suit for you.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

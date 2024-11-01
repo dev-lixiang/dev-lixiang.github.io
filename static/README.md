@@ -1,2 +1,0 @@
-Hello and welcome.
-Special thanks to **[(go)hugo](https://gohugo.io)**, **[DatWins](https://github.com/DatWins)**' **[papercss](https://github.com/DatWins/papercss)** ,and **[Zachary Betz](https://github.com/zwbetz-gh)**'s **[papercss-hugo-theme](https://github.com/zwbetz-gh/papercss-hugo-theme)**. Won't have this without all of you. :heart:
