@@ -86,7 +86,7 @@ addBackToTop({
 ```
 
 |Option	|Description|
-|:------:|-----|
+|:------:|:-----:|
 |id|	id attribute of the button|
 |showWhenScrollTopIs	|Show the button when page got scrolled by this number of pixels|
 |onClickScrollTo|	Where to scroll to, in pixels, when the button gets clicked, 0 means the very top|

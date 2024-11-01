@@ -1,6 +1,6 @@
 +++
 title = "How to Integrate Comments into Your Hugo Site"
-description = ""
+description = "A tutorial for integrating comment into hugo webpage"
 tags = [
     "Hugo",
     "Custom",
@@ -19,7 +19,7 @@ show_summary = false
 +++
 
 
-Someday you suddenly think it is so alone in your blog and you want others can comment on your blogs, so you opened 
+Someday you suddenly think it is so alone in your webpage and you want others can leave their comment here, so you opened 
 [Hugo's Quick Reference](https://gohugo.io/content-management/comments/), and you find this:
 > Hugo ships with an internal Disqus template, but this isn't the only commenting system that will work with your new Hugo 
 website.
@@ -67,9 +67,7 @@ Then add the partial in the footer of the post template, for me it is in `/layou
 
 ```html
 {{ .Content }}
-<footer>
-    {{ partial "disqus.html" . }}
-</footer>
+{{ partial "disqus.html" . }}
 {{ end }}
 ```
 
@@ -131,10 +129,8 @@ And then, we need to create a partial template named `giscus.html` in `../layout
 Same with before, add the partial in the footer of the post template in `/layouts/posts/single.html`.
 
 ```html
-{{ .content }}
-<footer>
-    {{ partial "posts/giscus.html" . }}
-</footer>
+{{ .Content }}
+{{ partial "giscus.html" . }}
 {{ end }}
 ```
 

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome on LIX</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Welcome on LIX</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 31 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Add a Scroll Button to Your Hugo Site</title>
+      <link>http://localhost:1313/blog/how-to-add-a-scroll-button-to-your-hugo-site/</link>
+      <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/how-to-add-a-scroll-button-to-your-hugo-site/</guid>
+      <description>&lt;p&gt;In this article, I will show how to add a simple Scroll-to-Top button to your webpage.&lt;/p&gt;&#xA;&lt;p&gt;Vanilla Back To Top is simple and tiny with no dependencies. Hides when on top, scrolls up smoothly when clicked. Works equally great with Vue, React, Angular and without frameworks on Jekyll, Hugo and Hexo&lt;/p&gt;&#xA;&lt;p&gt;What we need to do first is go to &lt;a href=&#34;https://github.com/vfeskov&#34;&gt;vfeskov&lt;/a&gt;&amp;rsquo;s &lt;a href=&#34;https://github.com/vfeskov/vanilla-back-to-top&#34;&gt;vanilla back to top repo&lt;/a&gt;, there provides 3 ways to use it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Integrate Comments into Your Hugo Site</title>
+      <link>http://localhost:1313/blog/how-to-integrate-comments-into-your-hugo-site/</link>
+      <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/how-to-integrate-comments-into-your-hugo-site/</guid>
+      <description>&lt;p&gt;Someday you suddenly think it is so alone in your blog and you want others can comment on your blogs, so you opened&#xA;&lt;a href=&#34;https://gohugo.io/content-management/comments/&#34;&gt;Hugo&amp;rsquo;s Quick Reference&lt;/a&gt;, and you find this:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Hugo ships with an internal Disqus template, but this isn&amp;rsquo;t the only commenting system that will work with your new Hugo&#xA;website.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;But when you search with Google, DuckDuckGo, or any engine else, you may find most people would suggest you use&#xA;giscus but Disqus for your blog&amp;rsquo;s comments, so you may wanna know the differences between them. But wait, this is not&#xA;what this article&amp;rsquo;s aim is. In this article, I will show you how to integrate a comment module but not compare them, only&#xA;experience it yourself, can you find which is more suit for you.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;Hello, this is &lt;strong&gt;Li Xiang&lt;/strong&gt; aka &lt;strong&gt;Shu&lt;/strong&gt;, friends also call me &lt;strong&gt;juju&lt;/strong&gt;. Pronouns: He/Him &lt;del&gt;(Attack Helicopter)&lt;/del&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Special thanks to &lt;strong&gt;&lt;a href=&#34;https://gohugo.io&#34;&gt;(go)hugo&lt;/a&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;a href=&#34;https://github.com/DatWins&#34;&gt;DatWins&lt;/a&gt;&lt;/strong&gt;&amp;rsquo; &lt;strong&gt;&lt;a href=&#34;https://github.com/DatWins/papercss&#34;&gt;papercss&lt;/a&gt;&lt;/strong&gt; ,and &lt;strong&gt;&lt;a href=&#34;https://github.com/zwbetz-gh&#34;&gt;Zachary Betz&lt;/a&gt;&lt;/strong&gt;&amp;rsquo;s &lt;strong&gt;&lt;a href=&#34;https://github.com/zwbetz-gh/papercss-hugo-theme&#34;&gt;papercss-hugo-theme&lt;/a&gt;&lt;/strong&gt;. Won&amp;rsquo;t have this without all of you. &amp;#x2764;&amp;#xfe0f;&lt;/p&gt;&#xA;&lt;p&gt;First exposure to computers in my primary school, I developed a great interest in it, and I have started learning programming by myself since then. But for reasons I have now forgotten, I put it aside. To my shame, the true time I approached the gate was last year. I still remember when I made friends with Bowa in school, we played &lt;strong&gt;&lt;a href=&#34;https://www.minecraft.net&#34;&gt;Minecraft&lt;/a&gt;&lt;/strong&gt; together on a modded server, and he showed me how to code in Minecraft with &lt;strong&gt;&lt;a href=&#34;https://www.lua.org&#34;&gt;Lua language&lt;/a&gt;&lt;/strong&gt;. It is amazing, how can you code in a game. &amp;#x1f914; And I remembered my dream since I was a child &lt;del&gt;(to be a hacker)&lt;/del&gt;, so I started&#xA;to ask Aunt google how to start.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
