@@ -9,6 +9,7 @@ services:
   disqus:
     shortname: dev-lixiang
 
+enable_zooming_js: true
 
 outputs:
 home:
@@ -35,6 +36,7 @@ enableEmoji: true
 
 params:
   homeMetaContent: Welcome, yes welcome.
+  author: "Li Xiang"
   # For more date formats see https://gohugo.io/functions/format/
   dateFormat: Jan 2, 2006
   navTitleLink: /

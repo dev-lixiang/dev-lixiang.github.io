@@ -13,6 +13,7 @@ categories = [
 series = ["Hugo"]
 author = "Li Xiang"
 show_summary = false
+toc = true
 +++
 
 In this article, I will show how to add a simple Scroll-to-Top button to your webpage.

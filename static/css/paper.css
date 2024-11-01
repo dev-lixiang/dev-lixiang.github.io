@@ -140,7 +140,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: sans-serif;
+  font-family: Neucha, sans-serif;
   font-size: 100%;
   line-height: 1.15;
   margin: 0
@@ -594,7 +594,7 @@ hr::after {
 }
 .container {
   margin: 0 auto;
-  max-width: 90%;
+  max-width: 65%;
   position: relative;
   width: 100%
 }
@@ -675,22 +675,22 @@ h6 {
   font-weight: 400
 }
 h1 {
-  font-size: 4rem
+  font-size: 3rem /* 48px */
 }
 h2 {
-  font-size: 3rem
+  font-size: 2rem /* 32px */
 }
 h3 {
-  font-size: 2rem
+  font-size: 1.75rem /* 28px */
 }
 h4 {
-  font-size: 1.5rem
+  font-size: 1.25rem /* 20px */
 }
 h5 {
-  font-size: 1rem
+  font-size: 1rem /* 16px */
 }
 h6 {
-  font-size: .8rem
+  font-size: .8rem /* 12.8px */
 }
 .text-left {
   text-align: left
@@ -2333,6 +2333,7 @@ nav .nav-brand h3,
 nav .nav-brand h4,
 nav .nav-brand h5,
 nav .nav-brand h6 {
+  font-size: 2rem;
   margin: 0;
   margin-bottom: .2rem
 }

@@ -6,7 +6,19 @@
       {{ partial "nav.html" . }}
       <main>
         {{ block "main" . }}{{ end }}
+        <br>
+        {{ if eq .Kind "page" }}
+          {{ if (.Params.disqus | default .Site.Config.Services.Disqus.Shortname) }}
+            {{- partial "disqus.html" . -}}
+          {{ end }}
+        {{ else }}
+          {{ if (.Params.disqus | default false) }}
+            {{- partial "disqus.html" . -}}
+          {{ end }}
+        {{ end }}
       </main>
-  </div>
+
+      {{- partial "footer.html" . }}
+    </div>
   </body>
 </html>

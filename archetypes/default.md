@@ -13,5 +13,6 @@ categories = [
 series = [""]
 author = "Li Xiang"
 show_summary = false
+toc = true
 +++
 
