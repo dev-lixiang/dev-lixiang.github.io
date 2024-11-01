@@ -13,7 +13,7 @@
 
   
     
-    <meta name="description" content="Someday you suddenly think it is so alone in your blog and you want others can comment on your blogs, so you opened Hugo’s Quick Reference, and you find this:
+    <meta name="description" content="Someday you suddenly think it is so alone in your webpage and you want others can leave their comment here, so you opened Hugo’s Quick Reference, and you find this:
 Hugo ships with an internal Disqus template, but this isn’t the only commenting system that will work with your new Hugo website.
 But when you search with Google, DuckDuckGo, or any engine else, you may find most people would suggest you use giscus but Disqus for your blog’s comments, so you may wanna know the differences between them. But wait, this is not what this article’s aim is. In this article, I will show you how to integrate a comment module but not compare them, only experience it yourself, can you find which is more suit for you.">
   
@@ -124,7 +124,7 @@ But when you search with Google, DuckDuckGo, or any engine else, you may find mo
 
 
 
-<p>Someday you suddenly think it is so alone in your blog and you want others can comment on your blogs, so you opened
+<p>Someday you suddenly think it is so alone in your webpage and you want others can leave their comment here, so you opened
 <a href="https://gohugo.io/content-management/comments/">Hugo&rsquo;s Quick Reference</a>, and you find this:</p>
 <blockquote>
 <p>Hugo ships with an internal Disqus template, but this isn&rsquo;t the only commenting system that will work with your new Hugo
@@ -163,9 +163,7 @@ experience it yourself, can you find which is more suit for you.</p>
 </span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">noscript</span>&gt;Please enable JavaScript to view the &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://disqus.com/?ref_noscript&#34;</span>&gt;comments powered by Disqus.&lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">noscript</span>&gt;
 </span></span></code></pre></div><p>Then add the partial in the footer of the post template, for me it is in <code>/layouts/posts/single.html</code>.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>{{ .Content }}
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">footer</span>&gt;
-</span></span><span style="display:flex;"><span>    {{ partial &#34;disqus.html&#34; . }}
-</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">footer</span>&gt;
+</span></span><span style="display:flex;"><span>{{ partial &#34;disqus.html&#34; . }}
 </span></span><span style="display:flex;"><span>{{ end }}
 </span></span></code></pre></div><p>Here we come to the last step, add below code inside your <code>config.yml</code> or <code>config.toml</code>.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yml" data-lang="yml"><span style="display:flex;"><span><span style="color:#f92672">services</span>:
@@ -210,10 +208,8 @@ experience it yourself, can you find which is more suit for you.</p>
 </span></span><span style="display:flex;"><span>  {{- end -}}
 </span></span><span style="display:flex;"><span>{{- end -}}
 </span></span></code></pre></div><p>Same with before, add the partial in the footer of the post template in <code>/layouts/posts/single.html</code>.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>{{ .content }}
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">footer</span>&gt;
-</span></span><span style="display:flex;"><span>    {{ partial &#34;posts/giscus.html&#34; . }}
-</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">footer</span>&gt;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>{{ .Content }}
+</span></span><span style="display:flex;"><span>{{ partial &#34;giscus.html&#34; . }}
 </span></span><span style="display:flex;"><span>{{ end }}
 </span></span></code></pre></div><p>Finally, we can configure the params in the <code>config.yml</code> or <code>config.toml</code> as below, just input the params we got in the first step, and enjoy. &#x1f604;</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yml" data-lang="yml"><span style="display:flex;"><span>  <span style="color:#f92672">giscus</span>:
